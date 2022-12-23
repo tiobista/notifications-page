@@ -26,6 +26,28 @@ html {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
 }
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--lightGrayishBlue1);
+}
+main,
+header {
+  background-color: var(--white);
+  padding: 1rem;
+}
+main {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
 .container {
   max-width: 330px;
   margin: 20px auto;
